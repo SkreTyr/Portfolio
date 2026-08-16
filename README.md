@@ -48,17 +48,10 @@ I bridge the gap between hardware understanding and modern software development.
 
 ---
 
-### 📌 Featured Projects
-
-| Project | Description | Tech Stack | Link |
-| :--- | :--- | :--- | :--- |
-| **[Portfolio]** | A full-stack web application designed to solve [X problem]. | React, Node.js, PostgreSQL | [Repository]([https://github.com/yourusername/project-1](https://ndevex.github.io/MyPortfolio/)) |
-| **[Portfolio-Minimalist]** | High-performance system utility or embedded software project. | C++, Linux, Microcontrollers | [Repository]([https://github.com/yourusername/project-2](https://ndevex.github.io/My-Portfolio-minimalist-/)) |
-
----
-
 
 ### 📫 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/shawn-agang-16115338a/))
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shannmichaelagang@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=aboutdotme&logoColor=white)](https://ndevex.github.io/My-Portfolio-minimalist-/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2ea44f?style=flat&logo=globe&logoColor=white)](https://ndevex.github.io/MyPortfolio/)
