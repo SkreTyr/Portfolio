@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warning Message</title>
+  
+  <!-- Google Fonts Direct Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+      <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
+
+  
+  <link rel="stylesheet" href="warning.css" />
+</head>
+<body>
+
+  <div class="bg-animation" style="z-index: 0;">
+					<div id='stars' style="filter: blur(2px);"></div>
+					<div id='stars2' style="filter: blur(2px);"></div>
+					<div id='stars3' style="filter: blur(2px);"></div>
+					<div id='stars4' style="filter: blur(2px);"></div>
+				</div><!-- / STAR ANIMATION -->
+				<script>
+					(function() {
+						const durations = [180, 320, 480, 1600];
+						const startKey = 'bgAnimStart';
+						let start = sessionStorage.getItem(startKey);
+						if (!start) {
+							start = Date.now();
+							sessionStorage.setItem(startKey, start);
+						} else {
+							start = parseInt(start, 10);
+						}
+						const elapsed = (Date.now() - start) / 1000;
+						document.querySelectorAll('#stars, #stars2, #stars3, #stars4').forEach((el, i) => {
+							const delay = -(elapsed % durations[i]);
+							el.style.animationDelay = delay + 's';
+						});
+					})();
+				</script>
+
+			</div>
+
+  <main class="dev-warning">
+    <h2>⚠️ Site Under Development</h2>
+    <p>
+      Currently building and testing new features. Some functionality may be incomplete or subject to change.
+    </p>
+    <p class="second_paragraph">If you wish to continue, click below.</p>
+<a class="ContinueButton" href="home.html">
+  <span>Continue to Page</span>
+</a>
+  </main>
+
+
+  
+</body>
+</html>
